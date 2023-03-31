@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Files on Github](https://github.com/mindful108/frontendmentor-interactive-rating-component.git)
-- Live Site URL: [Interactive Solution on Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Interactive Solution on Github Pages](https://mindful108.github.io/frontendmentor-interactive-rating-component)
 
 ## My process
 
