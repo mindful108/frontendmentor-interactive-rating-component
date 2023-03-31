@@ -38,8 +38,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.7rem 25px;
-  height: 100vh;
+  padding: 2rem 25px;
 }
 
 .card {
@@ -240,7 +239,7 @@ a.btn.btn-inactive {
   font-size: 14px;
   padding: 0.4rem 1.2rem;
   background-color: var(--blue-dark);
-  color: hsl(25, 97%, 53%, 75%);
+  color: hsla(25, 97%, 53%, 75%);
   border-radius: 10em;
   display: inline-block;
 }
@@ -259,7 +258,23 @@ a.btn.btn-inactive {
 /* Media Queries */
 /* =================== */
 
+@media (orientation: landscape) {
+  body {
+    height: auto;
+  }
+}
+
+@media (min-height: 590px) {
+  body {
+    height: 100vh;
+  }
+}
+
 @media (min-width: 400px) {
+  body {
+    padding-top: 2rem;
+    /* height: 100vh; */
+  }
   .card {
     padding: 35px 35px 40px;
     border-radius: 30px;
